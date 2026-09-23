@@ -591,7 +591,7 @@
           },
           {
             "position": {
-              "x": 720,
+              "x": 690,
               "y": -314.9999999999998
             },
             "size": {
@@ -920,12 +920,6 @@
               "cell": "f5019f60-9eda-4dc0-8747-6c32d88da3cd",
               "port": "34d8824b-104d-4363-b980-921a5ad9869f"
             },
-            "vertices": [
-              {
-                "x": 650,
-                "y": -340
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -1020,7 +1014,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": -340
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1067,6 +1067,110 @@
               "cell": "e882a692-a023-4d53-8033-450608d5ab05",
               "port": "1dc05273-449c-4992-a634-f3ed9c57edb8"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Cache Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Cache Data"
+            ],
+            "id": "8440cd03-b579-4cb0-a01a-43afa2b9bc19",
+            "source": {
+              "cell": "722db4cd-d1bf-4fdf-8030-569b2fead1ef",
+              "port": "e2201130-56fd-4a84-9d90-5ac7194b7b51"
+            },
+            "target": {
+              "cell": "f5019f60-9eda-4dc0-8747-6c32d88da3cd",
+              "port": "1dc05273-449c-4992-a634-f3ed9c57edb8"
+            },
+            "vertices": [
+              {
+                "x": 880,
+                "y": -245
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Read/Write\n(Cache Data)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Read/Write\n(Cache Data)"
+            ],
+            "id": "54e121dc-2a74-4ade-930d-b1eea153ca9d",
+            "source": {
+              "cell": "f5019f60-9eda-4dc0-8747-6c32d88da3cd",
+              "port": "d1166f4f-705e-457b-b1e5-b70c670c71de"
+            },
+            "target": {
+              "cell": "722db4cd-d1bf-4fdf-8030-569b2fead1ef",
+              "port": "e2201130-56fd-4a84-9d90-5ac7194b7b51"
+            },
+            "vertices": [
+              {
+                "x": 790,
+                "y": -290
+              }
+            ]
           },
           {
             "position": {
@@ -1194,8 +1298,8 @@
           },
           {
             "position": {
-              "x": 890,
-              "y": -329.99999999999994
+              "x": 905,
+              "y": -290
             },
             "size": {
               "width": 90,
@@ -1318,8 +1422,8 @@
           },
           {
             "position": {
-              "x": 895,
-              "y": -239.99999999999994
+              "x": 900,
+              "y": -219.99999999999994
             },
             "size": {
               "width": 80,
